@@ -1,0 +1,18 @@
+{
+  "name": "nomeBot",
+  "token": "Token",
+  "serverDiscordId": "000000000000000000",
+  "mysql": {
+    "host": "127.0.0.1",
+    "user": "root",
+    "password": "root",
+    "schema": "database",
+    "table": "users"
+  },
+  "userModel": {
+    "nameColumn" : "name",
+    "surnameColumn": "surname",
+    "discordIdColumn" : "discord_id"
+  },
+  "reasonRename": "Ragione per aver rinominato l'utente"
+}

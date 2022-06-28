@@ -1,0 +1,20 @@
+{
+  "name": "rename-bot",
+  "version": "1.0.0",
+  "description": "Aggiorna il nickname su ds ogni volta che viene aggiornata una riga in una tabella mysql",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./index.js",
+    "start": "node ./index.js"
+  },
+  "keywords": ["fiveM", "gta", "server", "discord", "bot", "mysql", "update", "nickname", "table"],
+  "author": "Jonathan Caputo",
+  "license": "ISC",
+  "dependencies": {
+    "@rodrigogs/mysql-events": "^0.6.0",
+    "discord.js": "^13.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}
