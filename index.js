@@ -2,8 +2,6 @@ const { Client, Intents } = require('discord.js');
 const config = require('./config.json');
 const mysqlListener = require("./src/mysqlListener");
 
-const {onRowUpdate} = require("./src/dsEvents");
-
 const client = new Client({intents: [Intents.FLAGS.GUILDS]});
 client.login(config.token);
 
